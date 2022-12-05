@@ -21,7 +21,6 @@ stack = [["N", "B", "D", "T", "V", "G", "Z", 'j'],
 # Format data to integers.
 data = data.splitlines()
 
-
 ##move_crate functions
 #x = quantity  
 #y = origin 
@@ -33,7 +32,6 @@ def move_crate(x,y,z):
     stack[z-1].append(stack[y-1].pop())
   
   return stack
-
 
 for x in range(0, len(data)-2):
     line = data[x]
@@ -47,55 +45,6 @@ for x in range(0, len(data)-2):
 #print final output
 for j in range (0, 9):
      print(stack[j].pop())
-
-
-    
-
-    
-
-
-    
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-
-
-
-
-
-
-
-
-
-#variables 
-
-
-# for x in data:
-#     count = count + x
-#     if x == 0:
-#         groupedSum.append(count)
-#         count = 0
-
-# for i in range(0,len(data)):
-#     if data[i] == "":
-#         data[i] = 0
-#     else:
-#         data[i] = int(data[i])
-        
-
-# newList = groupedSum
-# newList.sort()
-# topThree = newList[-3:]
-# part1 = ""
-# part2 = "sum of top 3 elves ="  + sum(newList[-3:])
 
     
     
