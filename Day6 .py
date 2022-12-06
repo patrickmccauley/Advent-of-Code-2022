@@ -1,4 +1,4 @@
-file = open('Input.txt')
+file = open('input.txt')
 characters= []
 for line in file:
   for char in range(0, len(line)):
