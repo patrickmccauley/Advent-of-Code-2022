@@ -6,8 +6,9 @@ with open('input.txt', "r") as f:
 f.close()
 
 #create stacks
-stack = [["N", "B", "D", "T", "V", "G", "Z", 'J'], 
-         ["S", "R", "M", "D", "W", "P", "F"], 
+#firstrow = stack 1 enter bottom to top
+stack = [['N', 'B', 'D', 'T', 'V', 'G', 'Z', 'J'], 
+         ['S', 'R', 'M', 'D', 'W', 'P', 'F'], 
          ['V', 'C', 'R', 'S', 'Z'], 
          ['R', 'T','J','Z','P','H','G'],
          ['T','C','J','N','D','Z','Q','F'],
